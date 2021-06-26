@@ -1,0 +1,17 @@
+/*Universal selector*/
+* {
+   font-family: Helvetica;
+   color: seashell;
+   background-color: black;
+   opacity: 0.9;
+   text-align: center;
+   
+   /*rest of browser's default values*/
+   margin: 0;
+   padding: 0;
+}
+
+/*html selector*/
+html {
+    font-size: 22px;
+}
