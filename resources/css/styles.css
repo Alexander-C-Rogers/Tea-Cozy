@@ -70,3 +70,41 @@ main {
     width: 100%;
     padding: 0.5%;
 }
+
+/*featured tea section*/
+#featured_tea {
+    width: 75%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.container-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.container-head h2 {
+    margin: 2% 0;
+}
+
+.figure-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    margin-top: 3.334%;
+}
